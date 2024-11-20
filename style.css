@@ -66,6 +66,7 @@ section{
 @media (max-width:768px) {
     .home-section{
         background-position: center;
+        margin-top: -10px;
     }
 }
 @media (min-width:768px) {
