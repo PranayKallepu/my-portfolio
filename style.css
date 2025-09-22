@@ -69,7 +69,7 @@ section {
 }
 @media (min-width: 768px) {
   .home-section {
-    background-image: url("pranay-bg.jpg");
+    background-image: url("pranay\ wallpaper.jpg");
   }
   .home-section div {
     margin-left: 100px;
@@ -224,6 +224,8 @@ section {
   overflow: hidden;
 }
 .work img {
+  max-height: 350px;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -306,6 +308,9 @@ section {
   .contact-container a {
     color: rgb(0, 110, 255);
   }
+  .experience-list div {
+    padding-left: 100px;
+  }
 }
 
 .footer-card {
@@ -336,4 +341,22 @@ section {
 
 .footer-card p {
   font-size: 12px;
+}
+
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+}
+.experience-list span {
+  text-align: start;
+  font-size: 14px;
+}
+.experience-list div {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  color: red;
+  margin-bottom: 20px;
 }
